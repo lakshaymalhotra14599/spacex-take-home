@@ -1,0 +1,19 @@
+---
+description: Conventions for the SpaceX React take-home assignment
+alwaysApply: true
+---
+
+- Build the application using React and TypeScript.
+- Prefer functional components and React hooks.
+- Use descriptive variable and function names.
+- Keep API logic, cache logic, UI components, and styling separate.
+- Avoid unnecessary libraries, abstractions, and premature optimization.
+- Make loading, error, empty, and cached-data states explicit.
+- Ensure filters reset pagination and prevent stale results from appearing.
+- Implement accessible controls, keyboard navigation, and visible focus states.
+- Use semantic HTML and responsive CSS.
+- Avoid adding useMemo, useCallback, or memo everywhere; optimize when justified.
+- Test edge cases before considering a feature complete.
+- Run the available tests and production build after meaningful changes.
+- Do not silently omit assignment requirements.
+- Explain architectural decisions and non-obvious tradeoffs.
